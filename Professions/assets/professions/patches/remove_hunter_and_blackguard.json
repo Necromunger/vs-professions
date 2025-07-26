@@ -1,0 +1,7 @@
+[
+    {
+        "file": "game:config/characterclasses",
+        "op": "remove",
+        "path": "/4"
+    }
+]

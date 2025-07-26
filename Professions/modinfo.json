@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "professions",
+  "name": "Professions",
+  "authors": [
+    "Necromunger"
+  ],
+  "description": "Update the classes into focused Professions",
+  "version": "0.1.0",
+  "dependencies": {
+    "game": ""
+  }
+}
