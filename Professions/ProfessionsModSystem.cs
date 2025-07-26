@@ -1,5 +1,6 @@
 ﻿using Vintagestory.API.Common;
 using Vintagestory.API.Server;
+using Vintagestory.GameContent;
 
 namespace Professions;
 
@@ -17,7 +18,7 @@ public class ProfessionsModSystem : ModSystem
     private void Event_PlayerJoin(IServerPlayer byPlayer)
     {
         // Set all players to have fast walk speed the same as hunter profession
-        byPlayer.Entity.Stats.Set("walkspeed", "universalfastwalk", config.WalkSpeedBuff, true);
+        byPlayer.Entity.Stats.Set("walkspeed", "universalfastwalk", config.WalkSpeedBuff, false);
     }
 }
 

@@ -53,17 +53,6 @@
 		]
 	},
 	{
-		code: "blackguard",
-		traits: ["soldier", "hardy", "merciless", "ravenous", "nearsighted", "heavyhanded"],
-		gear: [
-			{ type: "item", code: "clothes-upperbody-blackguard-shirt" },
-			{ type: "item", code: "clothes-lowerbody-blackguard-leggings" },
-			{ type: "item", code: "clothes-foot-blackguard-shoes" },
-			{ type: "item", code: "clothes-emblem-blackguard-pin" },
-			{ type: "item", code: "clothes-waist-blackguard-belt" }
-		]
-	},
-	{
 		code: "tailor",
 		traits: ["clothier", "mender", "civil", "weak", "kind"],
 		gear: [
