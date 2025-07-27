@@ -1,0 +1,79 @@
+[
+	{
+		"code": "resourceful",
+		"type": "positive",
+		"attributes": {
+			"animalLootDropRate": 0.1,
+			"animalHarvestingTime": -0.25
+		}
+	},
+	{
+		"code": "bowyer",
+		"type": "positive",
+		"attributes": {}
+	},
+	{
+		"code": "forager",
+		"type": "positive",
+		"attributes": {
+			"forageDropRate": 0.1,
+			"wildCropDropRate": 0.2
+		}
+	},
+	{
+		"code": "furtive",
+		"type": "positive",
+		"attributes": {
+			"animalSeekingRange": -0.35
+		}
+	},
+	{
+		"code": "hardy",
+		"type": "positive",
+		"attributes": {
+			"miningSpeedMul": 0.2
+		}
+	},
+	{
+		"code": "clothier",
+		"type": "positive",
+		"attributes": {}
+	},
+	{
+		"code": "mender",
+		"type": "positive",
+		"attributes": {
+			"armorDurabilityLoss": -0.1
+		}
+	},
+	{
+		"code": "merciless",
+		"type": "positive",
+		"attributes": {}
+	},
+	{
+		"code": "farsighted",
+		"type": "negative",
+		"attributes": {
+			"meleeWeaponsDamage": -0.15
+		}
+	},
+	{
+		"code": "claustrophobic",
+		"type": "negative",
+		"attributes": {
+			"oreDropRate": -0.15,
+			"miningSpeedMul": -0.1
+		}
+	},
+	{
+		"code": "improviser",
+		"type": "positive",
+		"attributes": {}
+	},
+	{
+		"code": "tinkerer",
+		"type": "positive",
+		"attributes": {}
+	}
+]

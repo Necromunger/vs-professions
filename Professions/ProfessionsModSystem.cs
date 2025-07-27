@@ -12,6 +12,12 @@ public class ProfessionsModSystem : ModSystem
     private CharacterSystem characterSystem;
     private ICoreAPI api;
 
+    public override void AssetsLoaded(ICoreAPI api)
+    {
+        //var test = api.Assets.Get("config/characterclasses.json");
+       // var x = test;
+    }
+
     public override void Start(ICoreAPI api)
     {
         this.api = api;
@@ -20,7 +26,7 @@ public class ProfessionsModSystem : ModSystem
 
     public override void StartClientSide(ICoreClientAPI api)
     {
-        api.Event.IsPlayerReady += OnPlayerReady;
+        //api.Event.IsPlayerReady += OnPlayerReady;
     }
 
     private bool OnPlayerReady(ref EnumHandling handling)
@@ -32,10 +38,9 @@ public class ProfessionsModSystem : ModSystem
 
     public override void StartServerSide(ICoreServerAPI api)
     {
-        api.Event.ServerRunPhase(EnumServerRunPhase.WorldReady, loadCharacterClasses);
-
         config = api.LoadModConfig<ProfessionsConfig>("ProfessionsConfig.json") ?? ProfessionsConfig.GetDefault(api);
 
+        //api.Event.ServerRunPhase(EnumServerRunPhase.WorldReady, loadCharacterClasses);
         api.Event.PlayerJoin += Event_PlayerJoin;
     }
 
