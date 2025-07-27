@@ -2,13 +2,14 @@
 [
   {
 	"code": "steward",
-	"traits": [],
+	"traits": ["farmer"],
 	"gear": [
-	  { "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
-	  { "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
-	  { "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
-	  { "type": "item", "code": "game:clothes-foot-commoner-boots" },
-	  { "type": "item", "code": "game:clothes-hand-commoner-gloves" }
+		{ "type": "item", "code": "game:clothes-head-straw-hat" },
+		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+		{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
+		{ "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
+		{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+		{ "type": "item", "code": "game:clothes-waist-linen-rope" }
 	]
   },
   {
@@ -27,22 +28,20 @@
   },
   {
 	"code": "metalsmith",
-	"traits": ["hardy"],
+	"traits": ["hardy", "miner"],
 	"gear": [
-	  { "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
-	  { "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
-	  { "type": "item", "code": "game:clothes-shoulder-malefactor-cloak" },
-	  { "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" },
-	  { "type": "item", "code": "game:clothes-foot-malefactor-boots" },
-	  { "type": "item", "code": "game:clothes-neck-malefactor-pendant" },
-	  { "type": "item", "code": "game:clothes-face-malefactor-mask" },
-	  { "type": "item", "code": "game:clothes-hand-malefactor-gloves" },
-	  { "type": "item", "code": "game:clothes-waist-malefactor-sash" }
+		{ "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
+		{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
+		{ "type": "item", "code": "game:clothes-lowerbody-raw-hide-trousers" },
+		{ "type": "item", "code": "game:clothes-foot-soldier-boots" },
+		{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
+		{ "type": "item", "code": "game:clothes-arm-leather-bracers" },
+		{ "type": "item", "code": "game:clothes-face-leather-reinforced-mask" }
 	]
   },
   {
 	"code": "artisan",
-	"traits": [],
+	"traits": ["tinkerer", "technical", "pilferer"],
 	"gear": [
 	  { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
 	  { "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
@@ -59,7 +58,7 @@
 	"gear": [
 	  { "type": "item", "code": "game:clothes-face-tailor-mask" },
 	  { "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" },
-	  { "type": "item", "code": "game:clothes-upperbody-tailor-blouse" },
+	  { "type": "item", "code": "game:clothes-upperbody-surgeon" },
 	  { "type": "item", "code": "game:clothes-waist-tailor-belt" },
 	  { "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" },
 	  { "type": "item", "code": "game:clothes-hand-tailor-gloves" },

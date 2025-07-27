@@ -8,6 +8,13 @@
 		}
 	},
 	{
+		"code": "farmer",
+		"type": "positive",
+		"attributes": {
+			"produceDropRate": 0.2
+		}
+	},
+	{
 		"code": "bowyer",
 		"type": "positive",
 		"attributes": {}
@@ -60,5 +67,29 @@
 		"code": "tinkerer",
 		"type": "positive",
 		"attributes": {}
+	},
+	{
+		"code": "technical",
+		"type": "positive",
+		"attributes": {
+			"temporalGearTLRepairCost": -1
+		}
+	},
+	{
+		"code": "pilferer",
+		"type": "positive",
+		"attributes": {
+			"vesselContentsDropRate": 0.15,
+			"rustyGearDropRate": 0.1,
+			"wholeVesselLootChance": 0.12
+		}
+	},
+	{
+		"code": "miner",
+		"type": "positive",
+		"attributes": {
+			"oreDropRate": 0.4,
+			"miningSpeedMul": 1
+		}
 	}
 ]
