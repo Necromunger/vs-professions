@@ -1,0 +1,14 @@
+{
+    // Character Classes
+    "characterclass-steward": "Steward",
+    "characterclass-ranger": "Ranger",
+    "characterclass-metalsmith": "Metalsmith",
+    "characterclass-artisan": "Artisan",
+    "characterclass-physician": "Physician",
+    // Character Descriptions
+    "characterdesc-steward": "Steward",
+    "characterdesc-ranger": "Ranger",
+    "characterdesc-metalsmith": "Metalsmith",
+    "characterdesc-artisan": "Artisan",
+    "characterdesc-physician": "Physician"
+}
