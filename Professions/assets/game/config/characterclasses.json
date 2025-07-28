@@ -1,69 +1,75 @@
-
 [
-  {
-	"code": "steward",
-	"traits": ["farmer"],
-	"gear": [
-		{ "type": "item", "code": "game:clothes-head-straw-hat" },
-		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
-		{ "type": "item", "code": "game:clothes-lowerbody-workmans-gown" },
-		{ "type": "item", "code": "game:clothes-foot-worn-leather-boots" },
-		{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
-		{ "type": "item", "code": "game:clothes-waist-linen-rope" }
-	]
-  },
-  {
-	"code": "ranger",
-	"traits": ["resourceful", "bowyer", "furtive", "forager"],
-	"gear": [
-	  { "type": "item", "code": "game:clothes-head-hunter-cape" },
-	  { "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
-	  { "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
-	  { "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
-	  { "type": "item", "code": "game:clothes-lowerbody-hunter-leggings" },
-	  { "type": "item", "code": "game:clothes-foot-hunter-boots" },
-	  { "type": "item", "code": "game:clothes-face-hunter-mask" },
-	  { "type": "item", "code": "game:clothes-hand-hunter-gloves" }
-	]
-  },
-  {
-	"code": "metalsmith",
-	"traits": ["hardy", "miner"],
-	"gear": [
-		{ "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
-		{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
-		{ "type": "item", "code": "game:clothes-lowerbody-raw-hide-trousers" },
-		{ "type": "item", "code": "game:clothes-foot-soldier-boots" },
-		{ "type": "item", "code": "game:clothes-hand-heavy-leather-gloves" },
-		{ "type": "item", "code": "game:clothes-arm-leather-bracers" },
-		{ "type": "item", "code": "game:clothes-face-leather-reinforced-mask" }
-	]
-  },
-  {
-	"code": "artisan",
-	"traits": ["tinkerer", "technical", "pilferer"],
-	"gear": [
-	  { "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
-	  { "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
-	  { "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
-	  { "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
-	  { "type": "item", "code": "game:clothes-foot-clockmaker-shoes" },
-	  { "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" },
-	  { "type": "item", "code": "game:clothes-waist-clockmaker-belt" }
-	]
-  },
-  {
-	"code": "physician",
-	"traits": ["clothier", "mender"],
-	"gear": [
-	  { "type": "item", "code": "game:clothes-face-tailor-mask" },
-	  { "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" },
-	  { "type": "item", "code": "game:clothes-upperbody-surgeon" },
-	  { "type": "item", "code": "game:clothes-waist-tailor-belt" },
-	  { "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" },
-	  { "type": "item", "code": "game:clothes-hand-tailor-gloves" },
-	  { "type": "item", "code": "game:clothes-foot-tailor-shoes" },
-	  { "type": "item", "code": "game:clothes-arm-tailor-needlepuff" }
-	]
-  }
+	{
+		"code": "steward",
+		"traits": ["farmer"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-straw-hat" },
+			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
+			{ "type": "item", "code": "game:clothes-upperbody-woolen-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
+			{ "type": "item", "code": "game:clothes-hand-commoner-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-peasant-strap" }
+		]
+	},
+	{
+		"code": "ranger",
+		"traits": ["resourceful", "bowyer", "furtive", "forager"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
+			{ "type": "item", "code": "game:clothes-shoulder-rotwalker" },
+			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-rotwalker" },
+			{ "type": "item", "code": "game:clothes-foot-rotwalker" },
+			{ "type": "item", "code": "game:clothes-hand-hunter-gloves" },
+			{ "type": "item", "code": "game:clothes-face-hunter-mask" },
+			{ "type": "item", "code": "game:clothes-waist-sturdy-belt" }
+		]
+	},
+	{
+		"code": "metalsmith",
+		"traits": ["hardy", "miner"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-nadiya-face-blacksmith" },
+			{ "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
+			{ "type": "item", "code": "game:clothes-upperbody-miner" },
+			{ "type": "item", "code": "game:clothes-lowerbody-miner" },
+			{ "type": "item", "code": "game:clothes-foot-miner" },
+			{ "type": "item", "code": "game:clothes-hand-miner" },
+			{ "type": "item", "code": "game:clothes-waist-sturdy-leather-belt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-miner" }
+		]
+	},
+	{
+		"code": "artisan",
+		"traits": ["tinkerer", "technical", "pilferer"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-merchant-hat" },
+			{ "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
+			{ "type": "item", "code": "game:clothes-upperbody-merchant-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-merchant-pants" },
+			{ "type": "item", "code": "game:clothes-foot-clockmaker-shoes" },
+			{ "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" },
+			{ "type": "item", "code": "game:clothes-neck-jade-amulet" },
+			{ "type": "item", "code": "game:clothes-emblem-blue-seal" },
+			{ "type": "item", "code": "game:clothes-face-glasses-clockmaker" },
+			{ "type": "item", "code": "game:clothes-waist-clockmaker-belt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" }
+		]
+	},
+	{
+		"code": "physician",
+		"traits": ["clothier", "mender"],
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-marketeer" },
+			{ "type": "item", "code": "game:clothes-shoulder-marketeer" },
+			{ "type": "item", "code": "game:clothes-upperbody-marketeer" },
+			{ "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-surgeon" },
+			{ "type": "item", "code": "game:clothes-hand-tailor-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-tailor-belt" },
+			{ "type": "item", "code": "game:clothes-arm-tailor-needlepuff" }
+		]
+	}
 ]
