@@ -1,7 +1,7 @@
 [
 	{
 		"code": "steward",
-		"traits": ["farmer"],
+		"traits": ["farmer", "butcher", "cook"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-straw-hat" },
 			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
@@ -15,7 +15,7 @@
 	},
 	{
 		"code": "ranger",
-		"traits": ["resourceful", "bowyer", "furtive", "forager"],
+		"traits": ["butcher", "furtive", "forager", "woodsman"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
 			{ "type": "item", "code": "game:clothes-shoulder-rotwalker" },
@@ -29,7 +29,7 @@
 	},
 	{
 		"code": "metalsmith",
-		"traits": ["hardy", "miner"],
+		"traits": ["miner", "blacksmith"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-nadiya-face-blacksmith" },
 			{ "type": "item", "code": "game:clothes-shoulder-blacksmith-apron" },
@@ -60,7 +60,7 @@
 	},
 	{
 		"code": "physician",
-		"traits": ["clothier", "mender"],
+		"traits": ["clothier", "healer"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-marketeer" },
 			{ "type": "item", "code": "game:clothes-shoulder-marketeer" },

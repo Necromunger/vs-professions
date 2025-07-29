@@ -1,13 +1,5 @@
 [
 	{
-		"code": "resourceful",
-		"type": "positive",
-		"attributes": {
-			"animalLootDropRate": 0.1,
-			"animalHarvestingTime": -0.25
-		}
-	},
-	{
 		"code": "farmer",
 		"type": "positive",
 		"attributes": {
@@ -15,59 +7,49 @@
 		}
 	},
 	{
-		"code": "bowyer",
-		"type": "positive",
-		"attributes": {}
-	},
-	{
-		"code": "forager",
+		"code": "butcher",
 		"type": "positive",
 		"attributes": {
-			"forageDropRate": 0.1,
-			"wildCropDropRate": 0.2
+			"animalLootDropRate": 0.2,
+			"animalHarvestingTime": -0.3
 		}
+	},
+	{
+		"code": "cook",
+		"type": "positive",
+		"attributes": {}
 	},
 	{
 		"code": "furtive",
 		"type": "positive",
 		"attributes": {
-			"animalSeekingRange": -0.35
+			"animalSeekingRange": -0.3
 		}
 	},
 	{
-		"code": "hardy",
+		"code": "forager",
 		"type": "positive",
 		"attributes": {
-			"miningSpeedMul": 0.2
+			"forageDropRate": 0.2,
+			"wildCropDropRate": 0.2
 		}
 	},
 	{
-		"code": "clothier",
-		"type": "positive",
-		"attributes": {}
-	},
-	{
-		"code": "mender",
+		"code": "woodsman",
 		"type": "positive",
 		"attributes": {
-			"armorDurabilityLoss": -0.1
+			"treeSeedDropRate": 0.25,
+			"woodLogDropRate": 0.25,
+			"stickDropRate": 0.25
 		}
 	},
-	{
-		"code": "merciless",
-		"type": "positive",
-		"attributes": {}
-	},
-	{
-		"code": "improviser",
-		"type": "positive",
-		"attributes": {}
-	},
+
 	{
 		"code": "tinkerer",
 		"type": "positive",
 		"attributes": {}
 	},
+
 	{
 		"code": "technical",
 		"type": "positive",
@@ -75,21 +57,43 @@
 			"temporalGearTLRepairCost": -1
 		}
 	},
+
 	{
 		"code": "pilferer",
 		"type": "positive",
 		"attributes": {
 			"vesselContentsDropRate": 0.15,
 			"rustyGearDropRate": 0.1,
-			"wholeVesselLootChance": 0.12
+			"wholeVesselLootChance": 0.15
 		}
 	},
+
 	{
 		"code": "miner",
 		"type": "positive",
 		"attributes": {
-			"oreDropRate": 0.4,
-			"miningSpeedMul": 1
+			"oreDropRate": 0.25,
+			"miningSpeedMul": 0.3
 		}
+	},
+
+	{
+		"code": "blacksmith",
+		"type": "positive",
+		"attributes": {
+			"charcoalPileDropRate": 0.25
+		}
+	},
+
+	{
+		"code": "clothier",
+		"type": "positive",
+		"attributes": {}
+	},
+
+	{
+		"code": "healer",
+		"type": "positive",
+		"attributes": {}
 	}
 ]
