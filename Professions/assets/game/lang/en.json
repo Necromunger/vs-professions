@@ -34,10 +34,43 @@
     "traitname-woodsman": "Woodsman",
     "traitdesc-woodsman": "Additional logs and seeds when harvesting trees",
 
+    "trait-miner": "<font color=\"#84ff84\">• Miner</font>",
+    "traitname-miner": "Miner",
+    "traitdesc-miner": "Increased ore yield and mining speed",
+
+    "trait-blacksmith": "<font color=\"#84ff84\">• Blacksmith</font>",
+    "traitname-blacksmith": "Blacksmith",
+    "traitdesc-blacksmith": "Unique recipes for metalworking and crafting",
+
+    "trait-collier": "<font color=\"#84ff84\">• Collier</font>",
+    "traitname-collier": "Collier",
+    "traitdesc-collier": "25% Charcoal yield",
+
+    "trait-healer": "<font color=\"#84ff84\">• Healer</font>",
+    "traitname-healer": "Healer",
+    "traitdesc-healer": "Unique recipes for bandages and healing poultices",
+
     // Trait Farmer
     "charattribute-produceDropRate-0.3": "+30% extra produce when harvesting planted crops",
     // Trait Butcher
     "charattribute-animalLootDropRate-0.25": "+25% animal loot",
     "charattribute-animalHarvestingTime--0.4": "-40% animal harvesting speed",
     // Trait Cook
+    // Trait Woodsman
+    "charattribute-treeSeedDropRate-0.25": "+25% Tree seed drop rate",
+    "charattribute-woodLogDropRate-0.25": "+25% Wood log drop rate",
+    "charattribute-stickDropRate-0.25": "+25% Stick drop rate",
+    // Trait Forager
+    "charattribute-forageDropRate-0.2": "+20% Forage drop rate",
+
+    // Trait Miner
+    "charattribute-oreDropRate-0.25": "+25% Ore drop rate",
+    "charattribute-miningSpeedMul-0.3": "+30% Mining speed",
+
+    // Trait Collier
+    "charattribute-charcoalPileDropRate-0.3": "+30% Charcoal pile yield",
+    
+    // Trait Pilferer
+    "charattribute-vesselContentsDropRate-0.15": "+15% vessels drop rate",
+    "charattribute-wholeVesselLootChance-0.15": "+15% chance to collect whole vessels when broken"
 }

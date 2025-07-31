@@ -17,13 +17,12 @@
 		"code": "ranger",
 		"traits": ["woodsman", "forager", "butcher", "furtive"],
 		"gear": [
-			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
 			{ "type": "item", "code": "game:clothes-shoulder-rotwalker" },
 			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
 			{ "type": "item", "code": "game:clothes-lowerbody-rotwalker" },
 			{ "type": "item", "code": "game:clothes-foot-rotwalker" },
 			{ "type": "item", "code": "game:clothes-hand-hunter-gloves" },
-			{ "type": "item", "code": "game:clothes-face-hunter-mask" },
+			{ "type": "item", "code": "game:clothes-face-leather-reinforced-mask" },
 			{ "type": "item", "code": "game:clothes-waist-sturdy-belt" }
 		]
 	},
