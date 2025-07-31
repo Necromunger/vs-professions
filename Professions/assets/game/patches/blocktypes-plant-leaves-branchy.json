@@ -1,0 +1,14 @@
+[
+  {
+    "op": "add",
+    "path": "/drops/1/dropModbyStat",
+    "value": "stickDropRate",
+    "file": "blocktypes/plant/leaves/branchy.json"
+  },
+  {
+    "op": "add",
+    "path": "/drops/1/dropModbyStat",
+    "value": "stickDropRate",
+    "file": "blocktypes/plant/leaves/branchy.json"
+  }
+]

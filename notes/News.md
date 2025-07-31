@@ -8,17 +8,19 @@ Movement speed, damage and health have all been made equal for all classes, with
 This should help group play in that you no longer need to worry about fighting related bonuses and also give more advantages as the following 5 classes are the combination of several others.
 
 ## Steward
-
-Focused on all matters for maintaining and caring for home base with
+Focused on all matters for maintaining and caring for home base.
 
 Traits:
   - Farming
-  - Butchery
   - Cooking
 
 ## Ranger
+Master of the forest
 
-Master of the forest 
+Traits:
+  - Woodsman
+  - Forager
+  - Furtive
 
 ## Metalsmith
   

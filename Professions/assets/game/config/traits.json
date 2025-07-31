@@ -1,17 +1,22 @@
 [
 	{
+		"code": "homesteader",
+		"type": "positive",
+		"attributes": {}
+	},
+	{
 		"code": "farmer",
 		"type": "positive",
 		"attributes": {
-			"produceDropRate": 0.2
+			"produceDropRate": 0.3
 		}
 	},
 	{
 		"code": "butcher",
 		"type": "positive",
 		"attributes": {
-			"animalLootDropRate": 0.2,
-			"animalHarvestingTime": -0.3
+			"animalLootDropRate": 0.25,
+			"animalHarvestingTime": -0.4
 		}
 	},
 	{
@@ -23,7 +28,7 @@
 		"code": "furtive",
 		"type": "positive",
 		"attributes": {
-			"animalSeekingRange": -0.3
+			"animalSeekingRange": -0.35
 		}
 	},
 	{
@@ -43,13 +48,11 @@
 			"stickDropRate": 0.25
 		}
 	},
-
 	{
 		"code": "tinkerer",
 		"type": "positive",
 		"attributes": {}
 	},
-
 	{
 		"code": "technical",
 		"type": "positive",
@@ -57,7 +60,6 @@
 			"temporalGearTLRepairCost": -1
 		}
 	},
-
 	{
 		"code": "pilferer",
 		"type": "positive",
@@ -67,7 +69,6 @@
 			"wholeVesselLootChance": 0.15
 		}
 	},
-
 	{
 		"code": "miner",
 		"type": "positive",
@@ -76,21 +77,23 @@
 			"miningSpeedMul": 0.3
 		}
 	},
-
 	{
 		"code": "blacksmith",
+		"type": "positive",
+		"attributes": {}
+	},
+	{
+		"code": "collier",
 		"type": "positive",
 		"attributes": {
 			"charcoalPileDropRate": 0.25
 		}
 	},
-
 	{
 		"code": "clothier",
 		"type": "positive",
 		"attributes": {}
 	},
-
 	{
 		"code": "healer",
 		"type": "positive",

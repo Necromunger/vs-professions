@@ -5,10 +5,39 @@
     "characterclass-metalsmith": "Metalsmith",
     "characterclass-artisan": "Artisan",
     "characterclass-physician": "Physician",
+
     // Character Descriptions
-    "characterdesc-steward": "Steward",
-    "characterdesc-ranger": "Ranger",
-    "characterdesc-metalsmith": "Metalsmith",
-    "characterdesc-artisan": "Artisan",
-    "characterdesc-physician": "Physician"
+    "characterdesc-steward": "<font color=\"#99c9f9\"><i>Master of hearth and home</i></font>",
+    "characterdesc-ranger": "<font color=\"#99c9f9\"><i>Master of the forest</i></font>",
+    "characterdesc-metalsmith": "<font color=\"#99c9f9\"><i>Master of metal, flame and stone</i></font>",
+    "characterdesc-artisan": "<font color=\"#99c9f9\"><i>Master of tools, tinkering and invention</i></font>",
+    "characterdesc-physician": "<font color=\"#99c9f9\"><i>Master of stitching in both healing and tailoring</i></font>",
+
+    // Traits
+    "trait-homesteader": "<font color=\"#84ff84\">• Homesteader</font>",
+    "traitname-homesteader": "Homesteader",
+    "traitdesc-homesteader": "Unique recipes for composting and batch crafting",
+
+    "trait-farmer": "<font color=\"#84ff84\">• Farmer</font>",
+    "traitname-farmer": "Farmer",
+    "traitdesc-farmer": "Additional crop yield when harvesting planted crops",
+    
+    "trait-butcher": "<font color=\"#84ff84\">• Butcher</font>",
+    "traitname-butcher": "Butcher",
+    "traitdesc-butcher": "Additional animal yield and harvest speed",
+    
+    "trait-cook": "<font color=\"#84ff84\">• Cook</font>",
+    "traitname-cook": "Cook",
+    "traitdesc-cook": "Unique recipes for food preservation and 2 extra servings in meals",
+
+    "trait-woodsman": "<font color=\"#84ff84\">• Woodsman</font>",
+    "traitname-woodsman": "Woodsman",
+    "traitdesc-woodsman": "Additional logs and seeds when harvesting trees",
+
+    // Trait Farmer
+    "charattribute-produceDropRate-0.3": "+30% extra produce when harvesting planted crops",
+    // Trait Butcher
+    "charattribute-animalLootDropRate-0.25": "+25% animal loot",
+    "charattribute-animalHarvestingTime--0.4": "-40% animal harvesting speed",
+    // Trait Cook
 }
