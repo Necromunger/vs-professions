@@ -40,7 +40,7 @@
 
     "trait-blacksmith": "<font color=\"#84ff84\">• Blacksmith</font>",
     "traitname-blacksmith": "Blacksmith",
-    "traitdesc-blacksmith": "Unique recipes for metalworking and crafting",
+    "traitdesc-blacksmith": "Unique recipe <a href=\"handbooksearch://Charcoal Briquette\">Charcoal Briquette</a> for efficient charcoal burning",
 
     "trait-collier": "<font color=\"#84ff84\">• Collier</font>",
     "traitname-collier": "Collier",
