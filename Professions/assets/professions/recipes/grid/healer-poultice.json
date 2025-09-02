@@ -1,0 +1,95 @@
+[
+	{
+		ingredientPattern: "SB	AL",
+        requiresTrait: "healer",
+		ingredients: {
+			"L": { type: "item", code: "game:flaxtwine", quantity: 2 },
+			"S": { type: "item", code: "game:powder-sulfur" },
+			"B": { type: "block", code: "game:bowl-*-fired" },
+			"A": { type: "item", code: "game:knife-*", isTool: true  }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.2
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:poultice-linen-honey-sulfur", quantity: 4  }
+	},
+	{
+		ingredientPattern: "HA	L_",
+        requiresTrait: "healer",
+		ingredients: {
+			"L": { type: "item", code: "game:flaxtwine", quantity: 2 },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 2 },
+			"A": { type: "item", code: "game:knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:poultice-linen-horsetail", quantity: 4  }
+	},
+	{
+		ingredientPattern: "HA	C_",
+        requiresTrait: "healer",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 2 },
+			"A": { type: "item", code: "game:knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:poultice-reed-horsetail", quantity: 4  }
+	},
+	{
+		ingredientPattern: "HA	P_",
+        requiresTrait: "healer",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"H": { type: "block", code: "game:flower-horsetail-free", quantity: 2 },
+			"A": { type: "item", code: "game:knife-*", isTool: true  }
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:poultice-reed-horsetail", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SB	AC",
+        requiresTrait: "healer",
+		ingredients: {
+			"C": { type: "item", code: "game:cattailtops", quantity: 2 },
+			"S": { type: "item", code: "game:powder-sulfur" },
+			"B": { type: "block", code: "game:bowl-*-fired" },
+			"A": { type: "item", code: "game:knife-*", isTool: true  }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.2
+			}
+		},		
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:poultice-reed-honey-sulfur", quantity: 4  }
+	},
+	{
+		ingredientPattern: "SB	AP",
+        requiresTrait: "healer",
+		ingredients: {
+			"P": { type: "item", code: "game:papyrustops", quantity: 2 },
+			"S": { type: "item", code: "game:powder-sulfur" },
+			"B": { type: "block", code: "game:bowl-*-fired" },
+			"A": { type: "item", code: "game:knife-*", isTool: true  }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:honeyportion" },
+				requiresLitres: 0.2
+			}
+		},
+		width: 2,
+		height: 2,
+		output: { type: "item", code: "game:poultice-reed-honey-sulfur", quantity: 4  }
+	}
+]

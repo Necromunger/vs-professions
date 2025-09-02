@@ -1,0 +1,28 @@
+[
+	{
+		ingredientPattern: "RSR	SRS	RAR",
+        requiresTrait: "homesteader",
+		ingredients: {
+			"R": { type: "item", code: "game:rot", quantity: 2 },
+			"S": { type: "block", code: "game:soil-medium-none", quantity: 2  },
+            "A": { type: "item", code: "game:shovel-*", isTool: true, toolDurabilityCost: 2  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:soil-compost-none", quantity: 1  }
+	},
+    {
+		ingredientPattern: "RCR	SMS	RAR",
+        requiresTrait: "homesteader",
+		ingredients: {
+			"C": { type: "item", code: "game:powder-charcoal", quantity: 2 },
+			"R": { type: "item", code: "game:compost", quantity: 2 },
+			"S": { type: "item", code: "game:bonemeal", quantity: 2  },
+			"M": { type: "block", code: "game:soil-compost-none" },
+            "A": { type: "item", code: "game:shovel-*", isTool: true, toolDurabilityCost: 2  }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:soil-high-none", quantity: 1  }
+	}
+]

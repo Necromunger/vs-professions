@@ -1,0 +1,65 @@
+[
+	{
+		ingredientPattern: "CHC,MBS,GGG",
+        requiresTrait: "blacksmith",
+		ingredients: {
+			"C": { type: "item", code: "game:clay-*" },
+			"H": { type: "item", code: "game:powder-charcoal"  },
+            "M": { type: "item", code: "game:hammer-*", isTool: true  },
+			"B": { type: "block", code: "game:woodbucket" },
+            "S": { type: "item", code: "game:shovel-*", isTool: true  },
+            "G": { type: "item", code: "game:drygrass", quantity: 2  }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:waterportion" },
+				requiresLitres: 1
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "professions:charcoal-briquette", quantity: 2  }
+	},
+    {
+		ingredientPattern: "CHC,MBS,GGG",
+        requiresTrait: "blacksmith",
+		ingredients: {
+			"C": { type: "item", code: "game:clay-*" },
+			"H": { type: "item", code: "game:powder-charcoal"  },
+            "M": { type: "item", code: "game:hammer-*", isTool: true  },
+			"B": { type: "block", code: "game:bowl-*-fired" },
+            "S": { type: "item", code: "game:shovel-*", isTool: true  },
+            "G": { type: "item", code: "game:drygrass", quantity: 2  }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:waterportion" },
+				requiresLitres: 1
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "professions:charcoal-briquette", quantity: 2  }
+	},
+    {
+		ingredientPattern: "CHC,MBS,GGG",
+        requiresTrait: "blacksmith",
+		ingredients: {
+			"C": { type: "item", code: "game:clay-*" },
+			"H": { type: "item", code: "game:powder-charcoal"  },
+            "M": { type: "item", code: "game:hammer-*", isTool: true  },
+			"B": { type: "block", code: "game:jug-*-fired" },
+            "S": { type: "item", code: "game:shovel-*", isTool: true  },
+            "G": { type: "item", code: "game:drygrass", quantity: 2  }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "game:waterportion" },
+				requiresLitres: 1
+			}
+		},
+		width: 3,
+		height: 3,
+		output: { type: "item", code: "professions:charcoal-briquette", quantity: 2  }
+	}
+]

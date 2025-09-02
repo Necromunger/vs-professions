@@ -16,7 +16,7 @@
     // Traits
     "trait-homesteader": "<font color=\"#84ff84\">• Homesteader</font>",
     "traitname-homesteader": "Homesteader",
-    "traitdesc-homesteader": "Unique recipes for composting and batch crafting",
+    "traitdesc-homesteader": "Unique recipes for <a href=\"handbooksearch://Terra preta or High fertility soil\">Terra preta and High fertility soil</a>",
 
     "trait-farmer": "<font color=\"#84ff84\">• Farmer</font>",
     "traitname-farmer": "Farmer",
@@ -48,7 +48,7 @@
 
     "trait-healer": "<font color=\"#84ff84\">• Healer</font>",
     "traitname-healer": "Healer",
-    "traitdesc-healer": "Unique recipes for bandages and healing poultices",
+    "traitdesc-healer": "Unique recipes for <a href=\"handbooksearch://Poultice\">Poultices</a>",
 
     // Trait Farmer
     "charattribute-produceDropRate-0.3": "+30% extra produce when harvesting planted crops",
