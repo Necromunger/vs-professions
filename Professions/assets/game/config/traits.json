@@ -64,9 +64,9 @@
 		"code": "pilferer",
 		"type": "positive",
 		"attributes": {
-			"vesselContentsDropRate": 0.15,
-			"rustyGearDropRate": 0.1,
-			"wholeVesselLootChance": 0.15
+			"vesselContentsDropRate": 0.2,
+			"rustyGearDropRate": 0.2,
+			"wholeVesselLootChance": 0.2
 		}
 	},
 	{

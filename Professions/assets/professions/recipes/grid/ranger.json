@@ -1,0 +1,24 @@
+[
+    {
+        "ingredientPattern": "A,F,F",
+        "requiresTrait": "woodsman",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:axe-*", "isTool": true },
+            "F": { "type": "item", "code": "game:firewood" },
+            "F": { "type": "item", "code": "game:firewood" }
+        },
+        "width": 1,
+        "height": 3,
+        "output": { "type": "item", "code": "game:stick", "quantity": 6  }
+    },
+    {
+        "ingredientPattern": "A,F",
+        "ingredients": {
+            "A": { "type": "item", "code": "game:axe-*", "isTool": true },
+            "F": { "type": "item", "code": "game:firewood" }
+        },
+        "width": 1,
+        "height": 2,
+        "output": { "type": "item", "code": "game:stick", "quantity": 2  }
+    }
+]
